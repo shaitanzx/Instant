@@ -450,4 +450,4 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(args.pretrained_model_name_or_path, args.enable_LCM)
+    main(args.pretrained_model_name_or_path, args.enable_LCM,share=True)
